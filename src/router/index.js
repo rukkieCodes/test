@@ -22,6 +22,11 @@ const routes = [
             name: 'Home.Card2',
             component: () => import('@/views/subViews/Card2.vue'),
           },
+          {
+            path: ':id',
+            name: 'Home.ID',
+            component: () => import('@/views/subViews/Image.vue')
+          }
         ]
       },
       {
